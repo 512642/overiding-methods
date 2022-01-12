@@ -6,7 +6,7 @@ public class PlayerHelper : MonoBehaviour
 {
 
 
-    float playerDamage;
+    //float playerDamage;
 
     protected virtual void PlayerDamage()
     {
