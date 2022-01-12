@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerScript : PlayerHelper
 {
+
     // Start is called before the first frame update
     void Start()
     {
@@ -13,15 +14,15 @@ public class PlayerScript : PlayerHelper
     // Update is called once per frame
     void Update()
     {
-        float x = ReadX();
-        float y = ReadY();
+        x = ReadX();
+        y = ReadY();
 
         Movement();
     }
 
     public void Movement()
     {
-        rb2d.velocity = new Vector2(x, y);
+        rb2d.velocity = new Vector3(x, y,0) * speed;
     }
 
 
