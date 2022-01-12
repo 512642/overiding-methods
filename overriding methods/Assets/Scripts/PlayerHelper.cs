@@ -4,11 +4,7 @@ using UnityEngine;
 
 public class PlayerHelper : MonoBehaviour
 {
-    public float x;
-    public float y;
-    public float speed;
 
-    public Rigidbody2D rb2d;
 
     float playerDamage;
 
