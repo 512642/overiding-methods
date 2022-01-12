@@ -13,6 +13,6 @@ public class WizardScript : EnemyBase
     // Update is called once per frame
     void Update()
     {
-        //base.AttackPlayer();
+        base.AttackPlayer();
     }
 }

@@ -17,6 +17,6 @@ public class DragonScript : EnemyBase
     }
     protected override void AttackPlayer()
     {
-        //print("Dragon is attacking player");
+        print("Dragon is attacking player");
     }
 }

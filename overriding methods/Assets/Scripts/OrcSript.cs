@@ -17,7 +17,7 @@ public class OrcSript : EnemyBase
     }
     protected override void AttackPlayer()
     {
-        //print("Orc is attacking player");
+        print("Orc is attacking player");
     }
 
 }
